@@ -405,7 +405,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     display: flex;
   }
   .services .container .roww img {
-    height: 620px;
+    height: 720px;
+  }
+  .services .container .roww .pi {
+    width: 760px;
   }
   .services .container .roww .purple {
     height: 100;
@@ -420,6 +423,140 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     color: white;
     font-size: 30px;
     padding-left: 75px;
+  }
+  .testimonial {
+    margin-top: 300px;
+  }
+  .testimonial .container h2 {
+    font-weight: 900;
+    padding-bottom: 80px;
+    margin-left: -230px;
+    text-decoration: none;
+  }
+  .testimonial .container .row .left .the-all .picture {
+    width: 500px;
+    height: 470px;
+    background: url(/IMAGEZ/picture\ 9.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  .testimonial .container .row .left .the-all .picture .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background-color: #701891;
+  }
+  .testimonial .container .row .left .the-all .picture .box img {
+    height: 30px;
+  }
+  .testimonial .container .row .left .the-all .text {
+    width: 80%;
+  }
+  .testimonial .container .row .left .the-all .text p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 900;
+    padding-top: 60px;
+  }
+  .testimonial .container .row .right .the-all .picture {
+    width: 500px;
+    height: 470px;
+    background: url(/IMAGEZ/picture\ 10.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: -100px;
+  }
+  .testimonial .container .row .right .the-all .picture .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background-color: #701891;
+  }
+  .testimonial .container .row .right .the-all .picture .box img {
+    height: 30px;
+  }
+  .testimonial .container .row .right .the-all .text {
+    width: 80%;
+  }
+  .testimonial .container .row .right .the-all .text p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 900;
+    padding-top: 60px;
+  }
+  .social {
+    margin-top: 90px;
+  }
+  .social .container {
+    text-align: center;
+  }
+  .social .container h2 {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .social .container .imgs {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .social .container .imgs img {
+    height: 350px;
+  }
+  .social .container .imgs .second {
+    margin-top: 200px;
+  }
+  .social .container .imgs .fourth {
+    margin-top: 200px;
+  }
+  .social .container .imgs .sixth {
+    margin-top: 200px;
+  }
+  .social .container h2 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .social .container .btn {
+    width: 200px;
+    height: 60px;
+    background-color: #701891;
+    border-radius: 0;
+  }
+  .social .container .btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .footer {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #701891;
+  }
+  .footer .container .row {
+    padding-top: 40px;
+  }
+  .footer .container .row .first .rights {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+  }
+  .footer .container .row .first .rights p {
+    color: white;
+    font-size: 20px;
+  }
+  .footer .container .row .first .icons {
+    padding-top: 30px;
+    display: flex;
+    gap: 40px;
   }
 }
 /* Large devices (desktops, 992px and up) */

@@ -723,9 +723,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             .roww{
                 gap: 20px;
                 display: flex;
-                img{
-                    height: 620px;
-                }
+               img{
+                        height: 720px;
+                    }
+                    .pi{
+                        width: 760px;
+                    }
 
                 .purple{
                     height: 100;
@@ -744,6 +747,182 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                         padding-left: 75px;
                     }
                 }
+            }
+        }
+    }
+
+    .testimonial{
+        margin-top: 300px;
+        .container{
+            h2{
+                font-weight: 900;
+                padding-bottom: 80px;
+                margin-left: -230px;
+                text-decoration: none;
+            }
+            .row{
+                .left{
+                    .the-all{
+                        .picture{
+                            width: 500px;
+                            height: 470px;
+                            background: url(/IMAGEZ/picture\ 9.png);
+                            background-repeat: no-repeat;
+                            display: flex;
+                            align-items: end;
+                            justify-content: end;
+    
+                            .box{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 80px;
+                                width: 80px;
+                                background-color: #701891;
+                                img{
+                                    height: 30px;
+                                }
+                            }
+    
+                            
+                        }
+
+                        .text{
+                            width: 80%;
+                            
+                            p{
+                                font-size: 20px;
+                                line-height: 40px;
+                                font-weight: 900;
+                                padding-top: 60px;
+                                
+                            }
+                        }
+                    }
+                }
+                .right{
+                   .the-all{
+                        .picture{
+                            width: 500px;
+                            height: 470px;
+                            background: url(/IMAGEZ/picture\ 10.png);
+                            background-repeat: no-repeat;
+                            display: flex;
+                            align-items: end;
+                            justify-content: end;
+                            margin-top: -100px;
+    
+                            .box{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 80px;
+                                width: 80px;
+                                background-color: #701891;
+                                img{
+                                    height: 30px;
+                                }
+                            }
+    
+                            
+                        }
+
+                        .text{
+                            width: 80%;
+                            
+                            p{
+                                font-size: 20px;
+                                line-height: 40px;
+                                font-weight: 900;
+                                padding-top: 60px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .social{
+        margin-top: 90px;
+        .container{
+            text-align: center;
+            h2{
+                font-size: 20px;
+                padding-bottom: 50px;
+            }
+            .imgs{
+                padding-top: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                img{
+                    height: 350px;
+                }
+
+                .second {
+                    margin-top: 200px;
+                }
+                .fourth {
+                    margin-top: 200px;
+                }
+                .sixth {
+                    margin-top: 200px;
+                }
+
+                
+            }
+
+            h2{
+                font-size: 30px;
+                font-weight: 900;
+            }
+            .btn{
+                width: 200px;
+                height: 60px;
+                background-color: #701891;
+                border-radius: 0;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        margin-top: 100px;
+        height: 300px;
+        background-color: #701891;
+
+        .container{
+            .row{
+                padding-top: 40px;
+                .first{
+                    img{
+                       // padding-top: 20px;
+                    }
+                    .rights{
+                        padding-top: 30px;
+                        display: flex;
+                        gap: 10px;
+
+                        p{
+                            color: white;
+                            //ine-height: 20px;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .icons{
+                        padding-top: 30px;
+                        display: flex;
+                        gap: 40px;
+                    }
+                }
+
             }
         }
     }
