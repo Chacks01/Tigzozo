@@ -1,0 +1,431 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* styles for mobile phones in portrait mode */
+@media (max-width: 375px) {
+  .dark {
+    background-color: white;
+    color: black;
+  }
+  .black {
+    background: black;
+    color: white;
+  }
+  .navbar .pc-nav {
+    display: none;
+  }
+  .navbar .rectangle {
+    width: 100vw;
+    height: 100vh;
+    background-color: #701891;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: -100vh;
+    transition: all 2s ease-in-out;
+    display: flex;
+  }
+  .navbar .rectangle img {
+    height: 30px;
+  }
+  .navbar .rectangle img .light-theme {
+    position: absolute;
+    display: none;
+  }
+  .navbar .mobile-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .navbar .mobile-nav img {
+    height: 50px;
+  }
+  .navbar .mobile-nav .hamburger {
+    position: absolute;
+    right: 10px;
+    border: 3px solid #701891;
+    height: 30px;
+    width: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  .navbar .mobile-nav .hamburger .line {
+    background: #701891;
+    height: 3px;
+    width: 70%;
+  }
+  .ignating {
+    margin-top: 20px;
+  }
+  .ignating .container .ro .left .text .text-text {
+    width: 70%;
+  }
+  .ignating .container .ro .left .text .text-text h1 {
+    color: black;
+    font-size: 30px;
+  }
+  .ignating .container .ro .left .text .text-text p {
+    color: black;
+    padding-top: 10px;
+  }
+  .ignating .container .ro .left .buttons {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .ignating .container .ro .left .buttons .btn {
+    width: 40%;
+    height: 30px;
+    border: 3px solid #701891;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
+  }
+  .ignating .container .ro .left .buttons .btn a {
+    text-decoration: none;
+    color: black;
+  }
+  .ignating .container .ro .left .buttons .btn1 {
+    background-color: #701891;
+  }
+  .ignating .container .ro .left .buttons .btn1 a {
+    color: white;
+  }
+  .ignating .container .ro .left .services {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ignating .container .ro .left .services .service {
+    display: flex;
+  }
+  .ignating .container .ro .left .services .service img {
+    height: 30px;
+  }
+  .ignating .container .ro .left .services .service p {
+    padding-left: 3px;
+    color: black;
+    text-decoration: none;
+  }
+  .ignating .container .ro .right {
+    padding-top: 20px;
+  }
+  .ignating .container .ro .right .pictures {
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ignating .container .ro .right .pictures .pic img {
+    height: 390px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .ignating .container .ro .right .pictures .pic3 {
+    display: none;
+  }
+  .ignating .container .ro .right .pictures .pic4 {
+    display: none;
+  }
+}
+/* styles for mobile phones in landscape mode */
+/* styles for smaller mobile devices */
+/* styles for larger mobile devices */
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .navbar .mobile-nav {
+    display: none;
+  }
+  .navbar .rectangle {
+    display: none;
+  }
+  .navbar .pc-nav {
+    display: block;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .pc-nav img {
+    height: 60px;
+    padding-left: 50px;
+  }
+  .navbar .pc-nav .links {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    margin-right: 40px;
+  }
+  .navbar .pc-nav .links a {
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+  }
+  .navbar .pc-nav .links a span {
+    color: #701891;
+  }
+  .navbar .pc-nav .links .theme {
+    display: flex;
+  }
+  .navbar .pc-nav .links .theme img {
+    height: 30px;
+  }
+  .navbar .pc-nav .links .theme .switch .light {
+    display: block;
+    position: relative;
+  }
+  .navbar .pc-nav .links .theme .switch .dark {
+    position: absolute;
+    display: block;
+  }
+  .ignating {
+    margin-top: 100px;
+  }
+  .ignating .container {
+    margin-left: 40px;
+    margin-right: 10pc;
+  }
+  .ignating .container .ro {
+    display: flex;
+  }
+  .ignating .container .ro .left .text .text-text {
+    padding-top: 100px;
+    width: 100%;
+  }
+  .ignating .container .ro .left .text .text-text h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  .ignating .container .ro .left .text .text-text p {
+    color: black;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .ignating .container .ro .left .buttons {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .ignating .container .ro .left .buttons .btn {
+    width: 60%;
+    height: 50px;
+    border: 3px solid #701891;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0%;
+  }
+  .ignating .container .ro .left .buttons .btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .ignating .container .ro .left .buttons .btn1 {
+    background-color: #701891;
+  }
+  .ignating .container .ro .left .buttons .btn1 a {
+    color: white;
+  }
+  .ignating .container .ro .left .services {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ignating .container .ro .left .services .service {
+    display: flex;
+    gap: 10px;
+  }
+  .ignating .container .ro .left .services .service img {
+    height: 50px;
+  }
+  .ignating .container .ro .left .services .service p {
+    padding-left: 3px;
+    color: black;
+    text-decoration: none;
+  }
+  .ignating .container .ro .right {
+    width: 68vw;
+    padding-left: 170px;
+    padding-top: 20px;
+  }
+  .ignating .container .ro .right .pictures {
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ignating .container .ro .right .pictures .pic img {
+    height: 700px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .ignating .container .ro .right .pictures .pic2 {
+    margin-top: -200px;
+  }
+  .ignating .container .ro .right .pictures .pic4 {
+    margin-top: -200px;
+  }
+  .about {
+    margin-top: 100px;
+  }
+  .about .container .row .left h2 {
+    font-weight: 900;
+    padding-bottom: 30px;
+    margin-left: -230px;
+    text-decoration: none;
+  }
+  .about .container .row .left .text {
+    width: 100%;
+  }
+  .about .container .row .left .text p {
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 22.7px;
+  }
+  .about .container .row .left .pic1 {
+    padding-top: 40px;
+  }
+  .about .container .row .left .pic-pic {
+    margin-top: -250px;
+    margin-left: 300px;
+  }
+  .about .container .right {
+    padding-left: 130px;
+  }
+  .about .container .right .picture {
+    width: 50px;
+  }
+  .about .container .right .picture img {
+    height: 650px;
+    padding-top: 70px;
+  }
+  .about .container .right .picture .text-t .tt {
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 22.7px;
+  }
+  .about .container .right .picture .btn-b {
+    width: 10px;
+    height: 40px;
+    background-color: #701891;
+  }
+  .services {
+    margin-top: 90px;
+  }
+  .services .container h2 {
+    font-weight: 900;
+    padding-bottom: 30px;
+    margin-left: -230px;
+    text-decoration: none;
+  }
+  .services .container .roww {
+    gap: 20px;
+    display: flex;
+  }
+  .services .container .roww img {
+    height: 620px;
+  }
+  .services .container .roww .purple {
+    height: 100;
+    width: 900px;
+    background-color: #701891;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  .services .container .roww .purple p {
+    color: white;
+    font-size: 30px;
+    padding-left: 75px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=style.css.map */

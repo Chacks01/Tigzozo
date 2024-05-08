@@ -1,0 +1,775 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	// font-size: 100%;
+	// font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+//phone styles
+// .dark{
+//     background-color: white;
+//     color: black;
+// }
+
+// .black{
+//     background: black;
+//     color: white;
+
+
+    
+// }
+
+// .navbar{
+
+
+//     .pc-nav{
+//         display: none;
+//     }
+
+//     .rectangle{
+//         width: 100vw;
+//         height: 100vh;
+//         background-color: #701891;
+//         color: white;
+//         display: flex;
+//         justify-content: space-evenly;
+//         align-items: center;
+//         position: absolute;
+//         top: -100vh;
+//         transition: all 2s ease-in-out;
+
+//         .theme{
+//         }
+//             display: flex;
+
+//             img{
+//                 height: 30px;
+
+//             .light-theme{
+//                 position: absolute;
+//                 display: none;
+//             }
+//         }
+//     }
+
+//     .mobile-nav{
+//         width: 100%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         position: relative;
+
+//         img{
+//             height: 50px;
+//         }
+
+//         .hamburger{
+//             position: absolute;
+//             right: 10px;
+//             border: 3px solid #701891;
+//             height: 30px;
+//             width: 35px;
+//             border-radius: 10px;
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
+//             align-items: center;
+//             gap: 3px;
+
+//             .line{
+//                 background: #701891;
+//                 height: 3px;
+//                 width: 70%;
+//             }
+//         }
+//     }
+// }
+
+// .ignating{
+//     margin-top: 20px;
+//     .container{
+//         .ro{
+//             .left{
+//                 .text{
+//                     .text-text{
+//                         width: 70%;
+//                         h1{
+//                             color: black;
+//                             font-size: 30px;
+//                         }
+//                         p{
+//                             color: black;
+//                             padding-top: 10px;
+//                         }
+//                     }
+                    
+                    
+//                 }
+//                 .buttons{
+//                     padding-top: 30px;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     gap: 20px;
+                    
+//                     .btn{
+//                         width: 40%;
+//                         height: 30px;
+//                         border: 3px solid #701891;
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                         border-radius: 0%;
+
+                        
+//                         a{
+//                             text-decoration: none;
+//                             color: black        ;
+//                         }
+//                     }
+                    
+//                     .btn1{
+//                             background-color: #701891;
+                            
+//                             a{
+//                                 color: white;
+//                             }
+//                         }
+//                 }
+
+//                 .services{
+//                     padding-top: 20px;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     .service{
+//                         display: flex;
+//                         img{
+//                             height: 30px;
+//                         }
+//                         p{
+//                             padding-left: 3px;
+//                             color:black;
+//                             text-decoration: none;
+//                         }
+//                     }
+//                 }
+//             }
+
+//             .right{
+//                 padding-top: 20px;
+//                 .pictures{
+//                     display: flex;
+//                     gap: 20px;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     .pic{
+                        
+//                         img{
+//                             height: 320px;
+//                             width: fit-content;
+                            
+//                         }
+//                     }
+
+//                     .pic3{
+//                         display: none;
+//                     }
+//                     .pic4{
+//                         display: none;
+//                     }
+                    
+                   
+                    
+//                 }
+//             }
+
+//         }
+//     }
+// }
+
+
+
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+/* styles for mobile phones in portrait mode */ 
+ @media (max-width: 375px) {
+ 
+    .dark{
+        background-color: white;
+        color: black;
+    }
+    
+    .black{
+        background: black;
+        color: white;
+    
+    
+        
+    }
+    
+    .navbar{
+    
+    
+        .pc-nav{
+            display: none;
+        }
+    
+        .rectangle{
+            width: 100vw;
+            height: 100vh;
+            background-color: #701891;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: absolute;
+            top: -100vh;
+            transition: all 2s ease-in-out;
+    
+            .theme{
+            }
+                display: flex;
+    
+                img{
+                    height: 30px;
+    
+                .light-theme{
+                    position: absolute;
+                    display: none;
+                }
+            }
+        }
+    
+        .mobile-nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+    
+            img{
+                height: 50px;
+            }
+    
+            .hamburger{
+                position: absolute;
+                right: 10px;
+                border: 3px solid #701891;
+                height: 30px;
+                width: 35px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 3px;
+    
+                .line{
+                    background: #701891;
+                    height: 3px;
+                    width: 70%;
+                }
+            }
+        }
+    }
+    
+    .ignating{
+        margin-top: 20px;
+        .container{
+            .ro{
+                .left{
+                    .text{
+                        .text-text{
+                            width: 70%;
+                            h1{
+                                color: black;
+                                font-size: 30px;
+                            }
+                            p{
+                                color: black;
+                                padding-top: 10px;
+                            }
+                        }
+                        
+                        
+                    }
+                    .buttons{
+                        padding-top: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        
+                        .btn{
+                            width: 40%;
+                            height: 30px;
+                            border: 3px solid #701891;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 0%;
+    
+                            
+                            a{
+                                text-decoration: none;
+                                color: black        ;
+                            }
+                        }
+                        
+                        .btn1{
+                                background-color: #701891;
+                                
+                                a{
+                                    color: white;
+                                }
+                            }
+                    }
+    
+                    .services{
+                        padding-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .service{
+                            display: flex;
+                            img{
+                                height: 30px;
+                            }
+                            p{
+                                padding-left: 3px;
+                                color:black;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+    
+                .right{
+                    padding-top: 20px;
+                    .pictures{
+                        display: flex;
+                        gap: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .pic{
+                            
+                            img{
+                                height: 390px;
+                                width: fit-content;
+                                
+                            }
+                        }
+    
+                        .pic3{
+                            display: none;
+                        }
+                        .pic4{
+                            display: none;
+                        }
+                        
+                       
+                        
+                    }
+                }
+    
+            }
+        }
+    }
+
+  }
+
+ /* styles for mobile phones in landscape mode */ 
+@media (max-width: 767px) { 
+
+}
+
+/* styles for smaller mobile devices */
+@media (max-width: 575px) { 
+   
+
+ }
+
+ /* styles for larger mobile devices */
+@media (min-width: 576px) and (max-width: 767px) { 
+    
+
+ }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    .navbar{
+
+        .mobile-nav{
+            display: none;
+        }
+        .rectangle{
+            display: none;
+        }
+
+        .pc-nav{
+            display: block;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                height: 60px;
+                padding-left: 50px;
+            }
+
+           .links{
+            display: flex;
+            align-items: center;
+            gap: 140px;
+            margin-right: 40px;
+
+            a{
+                font-size: 25px;
+                font-weight: 900;
+                text-decoration: none;
+                color: black;
+
+                span{
+                    color: #701891;
+                }
+            }
+            
+            .theme{
+                display: flex;
+                img{
+                    height: 30px;
+                }
+
+                .switch{
+                   .light{
+                    display: block;
+                    position: relative;
+                   }
+
+                   .dark{
+                    position: absolute;
+                    display: block;
+                   }
+                }
+
+            }
+
+            
+            
+           }
+        }
+    }
+
+    .ignating{
+        margin-top: 100px;
+        .container{
+            margin-left: 40px;
+            margin-right: 10pc;
+            .ro{display: flex;
+                
+                
+                .left{
+                    .text{
+                        .text-text{
+                            padding-top: 100px;
+                            width: 100%;
+                            h1{
+                                color: black;
+                                font-size: 60px;
+                                font-weight: bolder;
+                                
+                            }
+                            p{
+                                color: black;
+                                padding-top: 10px;
+                                font-size: 20px;
+                            }
+                        }
+                        
+                        
+                    }
+                    .buttons{
+                        padding-top: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        
+                        .btn{
+                            width: 60%;
+                            height: 50px;
+                            border: 3px solid #701891;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 0%;
+    
+                            
+                            a{
+                                text-decoration: none;
+                                color: black;
+                                font-size: 20px;
+                            }
+                        }
+                        
+                        .btn1{
+                                background-color: #701891;
+                                
+                                a{
+                                    color: white;
+                                }
+                            }
+                    }
+    
+                    .services{
+                        padding-top: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        
+                        .service{
+                            display: flex;
+                            gap: 10px;
+                            img{
+                                height: 50px;
+                            }
+                            p{
+                                padding-left: 3px;
+                                color:black;
+                                text-decoration: none;
+
+                            }
+                        }
+                    }
+                }
+    
+                .right{
+                    width: 68vw;
+                    padding-left: 170px;
+                    padding-top: 20px;
+                    .pictures{
+                        display: flex;
+                        gap: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .pic{
+                            
+                            img{
+                                height: 700px;
+                                width: fit-content;
+                                
+                            }
+                        }
+                        .pic2{
+                            margin-top: -200px;
+                            
+                        }
+                        .pic4{
+                            margin-top: -200px;
+                        }
+    
+                        
+                        
+                       
+                        
+                    }
+                }
+    
+            }
+        }
+    }
+    .about{
+        margin-top: 100px;
+        .container{
+            .row{
+                .left{
+                    h2{
+                        font-weight: 900;
+                        padding-bottom: 30px;
+                        margin-left: -230px;
+                        text-decoration: none;
+                    }
+                    .text{
+                        width: 100%;
+                        p{
+                            text-decoration: none;
+                            line-height: 30px;
+                            font-size: 22.7px;
+                    
+                        }
+                    }
+                    .pic1{
+                        padding-top: 40px;
+                    }
+                    .pic-pic{
+                        margin-top: -250px;
+                        margin-left: 300px
+                    }
+
+                }
+            }
+
+            .right{
+                padding-left: 130px;
+
+                .picture{
+                    width: 50px;
+                    img{
+                        height: 650px;
+                        padding-top: 70px;
+
+                    }
+                    .text-t{
+                        
+                        .tt{
+                            text-decoration: none;
+                            line-height: 30px;
+                            font-size: 22.7px;
+                    
+                        }
+                    }
+                    .btn-b{
+                        width: 10px;
+                        height: 40px;
+                        background-color: #701891;
+                    }
+                }
+
+            }
+        }
+    }
+    .services{
+        margin-top: 90px;
+        .container{
+            h2{
+                font-weight: 900;
+                padding-bottom: 30px;
+                margin-left: -230px;
+                text-decoration: none;
+            }
+
+            .roww{
+                gap: 20px;
+                display: flex;
+                img{
+                    height: 620px;
+                }
+
+                .purple{
+                    height: 100;
+                    width: 900px;
+                    background-color: #701891;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    justify-content: center;
+            
+                    
+
+                    p{
+                        color: white;
+                        font-size: 30px;
+                        padding-left: 75px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+    
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}
