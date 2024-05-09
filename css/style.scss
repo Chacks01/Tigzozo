@@ -49,469 +49,471 @@ table {
 	border-spacing: 0;
 }
 
-//phone styles
-.dark{
-    background-color: white;
-    color: black;
-}
 
-.black{
-    background: black;
-    color: white;
+
+//phone styles
+// .dark{
+//     background-color: white;
+//     color: black;
+// }
+
+// .black{
+//     background: black;
+//     color: white;
 
 
     
-}
+// }
 
-.navbar{
+// .navbar{
 
 
-    .pc-nav{
-        display: none;
-    }
+//     .pc-nav{
+//         display: none;
+//     }
 
-    .rectangle{
-        width: 100vw;
-        height: 100vh;
-        background-color: #701891;
-        color: white;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        position: absolute;
-        top: -100vh;
-        transition: all 2s ease-in-out;
+//     .rectangle{
+//         width: 100vw;
+//         height: 100vh;
+//         background-color: #701891;
+//         color: white;
+//         display: flex;
+//         justify-content: space-evenly;
+//         align-items: center;
+//         position: absolute;
+//         top: -100vh;
+//         transition: all 2s ease-in-out;
 
-        .theme{
-        }
-            display: flex;
+//         .theme{
+//         }
+//             display: flex;
 
-            img{
-                height: 30px;
+//             img{
+//                 height: 30px;
 
-            .light-theme{
-                position: absolute;
-                display: none;
-            }
-        }
-    }
+//             .light-theme{
+//                 position: absolute;
+//                 display: none;
+//             }
+//         }
+//     }
 
-    .mobile-nav{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
+//     .mobile-nav{
+//         width: 100%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         position: relative;
 
-        img{
-            height: 50px;
-        }
+//         img{
+//             height: 50px;
+//         }
 
-        .hamburger{
-            position: absolute;
-            right: 10px;
-            border: 3px solid #701891;
-            height: 30px;
-            width: 35px;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 3px;
+//         .hamburger{
+//             position: absolute;
+//             right: 10px;
+//             border: 3px solid #701891;
+//             height: 30px;
+//             width: 35px;
+//             border-radius: 10px;
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
+//             align-items: center;
+//             gap: 3px;
 
-            .line{
-                background: #701891;
-                height: 3px;
-                width: 70%;
-            }
-        }
-    }
-}
+//             .line{
+//                 background: #701891;
+//                 height: 3px;
+//                 width: 70%;
+//             }
+//         }
+//     }
+// }
 
-.ignating{
-    margin-top: 20px;
-    .container{
-        .ro{
-            .left{
-                .text{
-                    .text-text{
-                        width: 70%;
-                        h1{
-                            color: black;
-                            font-size: 30px;
-                        }
-                        p{
-                            color: black;
-                            padding-top: 10px;
-                        }
-                    }
+// .ignating{
+//     margin-top: 20px;
+//     .container{
+//         .ro{
+//             .left{
+//                 .text{
+//                     .text-text{
+//                         width: 70%;
+//                         h1{
+//                             color: black;
+//                             font-size: 30px;
+//                         }
+//                         p{
+//                             color: black;
+//                             padding-top: 10px;
+//                         }
+//                     }
                     
                     
-                }
-                .buttons{
-                    padding-top: 30px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 20px;
+//                 }
+//                 .buttons{
+//                     padding-top: 30px;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     gap: 20px;
                     
-                    .btn{
-                        width: 40%;
-                        height: 30px;
-                        border: 3px solid #701891;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        border-radius: 0%;
+//                     .btn{
+//                         width: 40%;
+//                         height: 30px;
+//                         border: 3px solid #701891;
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                         border-radius: 0%;
 
                         
-                        a{
-                            text-decoration: none;
-                            color: black        ;
-                        }
-                    }
+//                         a{
+//                             text-decoration: none;
+//                             color: black        ;
+//                         }
+//                     }
                     
-                    .btn1{
-                            background-color: #701891;
+//                     .btn1{
+//                             background-color: #701891;
                             
-                            a{
-                                color: white;
-                            }
-                        }
-                }
+//                             a{
+//                                 color: white;
+//                             }
+//                         }
+//                 }
 
-                .services{
-                    padding-top: 20px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    .service{
-                        display: flex;
-                        img{
-                            height: 30px;
-                        }
-                        p{
-                            padding-left: 3px;
-                            color:black;
-                            text-decoration: none;
-                        }
-                    }
-                }
-            }
+//                 .services{
+//                     padding-top: 20px;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     .service{
+//                         display: flex;
+//                         img{
+//                             height: 30px;
+//                         }
+//                         p{
+//                             padding-left: 3px;
+//                             color:black;
+//                             text-decoration: none;
+//                         }
+//                     }
+//                 }
+//             }
 
-            .right{
-                padding-top: 20px;
-                .pictures{
-                    display: flex;
-                    gap: 20px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    .pic{
+//             .right{
+//                 padding-top: 20px;
+//                 .pictures{
+//                     display: flex;
+//                     gap: 20px;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     .pic{
                         
-                        img{
-                            height: 320px;
-                            width: fit-content;
+//                         img{
+//                             height: 320px;
+//                             width: fit-content;
                             
-                        }
-                    }
+//                         }
+//                     }
 
-                    .pic3{
-                        display: none;
-                    }
-                    .pic4{
-                        display: none;
-                    }
+//                     .pic3{
+//                         display: none;
+//                     }
+//                     .pic4{
+//                         display: none;
+//                     }
                     
                    
                     
-                }
-            }
+//                 }
+//             }
 
-        }
-    }
-}
-.about{
-    margin-top: 70px;
-    .container{
-        .row{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            .left{
-                h2{
-                    font-weight: 900;
-                    padding-bottom: 30px;
-                    //margin-left: -230px;
-                    text-decoration: none;
-                    font-size: 20px;
-                }
-                .text{
-                    width: 100%;
-                    p{
-                        text-decoration: none;
+//         }
+//     }
+// }
+// .about{
+//     margin-top: 70px;
+//     .container{
+//         .row{
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             .left{
+//                 h2{
+//                     font-weight: 900;
+//                     padding-bottom: 30px;
+//                     //margin-left: -230px;
+//                     text-decoration: none;
+//                     font-size: 20px;
+//                 }
+//                 .text{
+//                     width: 100%;
+//                     p{
+//                         text-decoration: none;
                         
-                        font-size: 12px;
+//                         font-size: 12px;
                 
-                    }
-                }
-                .pic1{
-                    padding-top: 40px;
-                    height: 40px;
-                    display: none;
-                }
-                .pic-pic{
-                    margin-top: -10px;
-                    margin-left: 300px;
-                    height: 40px;
-                    display: none;
-                }
+//                     }
+//                 }
+//                 .pic1{
+//                     padding-top: 40px;
+//                     height: 40px;
+//                     display: none;
+//                 }
+//                 .pic-pic{
+//                     margin-top: -10px;
+//                     margin-left: 300px;
+//                     height: 40px;
+//                     display: none;
+//                 }
 
-            }
-        }
+//             }
+//         }
 
-        .right{
-            padding-left: 10px;
+//         .right{
+//             padding-left: 10px;
 
-            .picture{
-                width: 50px;
-                img{
-                    height: 310px;
-                    padding-top: 30px;
+//             .picture{
+//                 width: 50px;
+//                 img{
+//                     height: 310px;
+//                     padding-top: 30px;
 
-                }
+//                 }
                 
-            }
-            .text-t{
-                padding-top: 30px;
-                width: 100%;
+//             }
+//             .text-t{
+//                 padding-top: 30px;
+//                 width: 100%;
                     
-                .tt{
-                    text-decoration: none;
-                    //line-height: 30px;
-                    font-size: 12px;
+//                 .tt{
+//                     text-decoration: none;
+//                     //line-height: 30px;
+//                     font-size: 12px;
             
-                }
-            }
-            .btn{
-                width: 150px;
-                height: 40px;
-                background-color: #701891;
-                border-radius: 0;
-                margin-top: 30px;
+//                 }
+//             }
+//             .btn{
+//                 width: 150px;
+//                 height: 40px;
+//                 background-color: #701891;
+//                 border-radius: 0;
+//                 margin-top: 30px;
 
 
-                a{
-                    color: white;
-                    text-decoration: none;
-                }
-            }
+//                 a{
+//                     color: white;
+//                     text-decoration: none;
+//                 }
+//             }
 
-        }
-    }
-}
-.services{
-    margin-top: 90px;
-    .container{
-        h2{
-            font-weight: 900;
-            padding-bottom: 30px;
-            //margin-left: -230px;
-            text-decoration: none;
-            font-size: 20px;
-        }
+//         }
+//     }
+// }
+// .services{
+//     margin-top: 90px;
+//     .container{
+//         h2{
+//             font-weight: 900;
+//             padding-bottom: 30px;
+//             //margin-left: -230px;
+//             text-decoration: none;
+//             font-size: 20px;
+//         }
 
-        .roww{
-            gap: 20px;
-            display: flex;
-            align-items: center;
-           img{
-                    height: 180px;
-                    display: none;
-                }
-                .pi{
-                    width: 60px;
-                    display: none;
-                }
+//         .roww{
+//             gap: 20px;
+//             display: flex;
+//             align-items: center;
+//            img{
+//                     height: 180px;
+//                     display: none;
+//                 }
+//                 .pi{
+//                     width: 60px;
+//                     display: none;
+//                 }
 
-            .purple{
-                height: 220px;
-                width: 900px;
-                background-color: #701891;
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                justify-content: center;
-                text-align: center;
+//             .purple{
+//                 height: 220px;
+//                 width: 900px;
+//                 background-color: #701891;
+//                 display: flex;
+//                 flex-direction: column;
+//                 gap: 10px;
+//                 justify-content: center;
+//                 text-align: center;
         
                 
 
-                p{
-                    color: white;
-                    font-size: 8px;
+//                 p{
+//                     color: white;
+//                     font-size: 8px;
                     
-                }
-            }
-        }
-    }
-}
+//                 }
+//             }
+//         }
+//     }
+// }
 
-.testimonial{
-    margin-top: 100px;
-    .container{
-        h2{
-            font-weight: 900;
-            padding-bottom: 80px;
-            //margin-left: -230px;
-            text-decoration: none;
-            font-size: 20px;
-        }
-        .row{
-            .left{
-                .the-all{
-                    .picture{
-                        width: 300px;
-                        height: 180px;
-                        background: url(/IMAGEZ/picture\ 9.png);
-                        background-repeat: no-repeat;
-                        display: flex;
-                        align-items: end;
-                        justify-content: end;
-                        background-size: cover;
+// .testimonial{
+//     margin-top: 100px;
+//     .container{
+//         h2{
+//             font-weight: 900;
+//             padding-bottom: 80px;
+//             //margin-left: -230px;
+//             text-decoration: none;
+//             font-size: 20px;
+//         }
+//         .row{
+//             .left{
+//                 .the-all{
+//                     .picture{
+//                         width: 300px;
+//                         height: 180px;
+//                         background: url(/IMAGEZ/picture\ 9.png);
+//                         background-repeat: no-repeat;
+//                         display: flex;
+//                         align-items: end;
+//                         justify-content: end;
+//                         background-size: cover;
 
-                        .box{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            height: 40px;
-                            width: 40px;
-                            background-color: #701891;
-                            img{
-                                height: 10px;
-                            }
-                        }
+//                         .box{
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: center;
+//                             height: 40px;
+//                             width: 40px;
+//                             background-color: #701891;
+//                             img{
+//                                 height: 10px;
+//                             }
+//                         }
 
                         
-                    }
+//                     }
 
-                    .text{
-                        width: 80%;
-                        margin-top: -20px;
+//                     .text{
+//                         width: 80%;
+//                         margin-top: -20px;
                         
-                        p{
-                            font-size: 10px;
-                            //line-height: 40px;
-                            font-weight: 900;
-                            padding-top: 60px;
+//                         p{
+//                             font-size: 10px;
+//                             //line-height: 40px;
+//                             font-weight: 900;
+//                             padding-top: 60px;
                             
-                        }
-                    }
-                }
-            }
-            .right{
-                margin-top: 150px;
-               .the-all{
-                    .picture{
-                        padding-top: 40px;
-                        width: 300px;
-                        height: 180px;
-                        background: url(/IMAGEZ/picture\ 10.png);
-                        background-repeat: no-repeat;
-                        display: flex;
-                        align-items: end;
-                        justify-content: end;
-                        margin-top: -100px;
-                        background-size: cover;
+//                         }
+//                     }
+//                 }
+//             }
+//             .right{
+//                 margin-top: 150px;
+//                .the-all{
+//                     .picture{
+//                         padding-top: 40px;
+//                         width: 300px;
+//                         height: 180px;
+//                         background: url(/IMAGEZ/picture\ 10.png);
+//                         background-repeat: no-repeat;
+//                         display: flex;
+//                         align-items: end;
+//                         justify-content: end;
+//                         margin-top: -100px;
+//                         background-size: cover;
 
-                        .box{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            height: 40px;
-                            width: 40px;
-                            background-color: #701891;
-                            img{
-                                height: 10px;
-                            }
-                        }
+//                         .box{
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: center;
+//                             height: 40px;
+//                             width: 40px;
+//                             background-color: #701891;
+//                             img{
+//                                 height: 10px;
+//                             }
+//                         }
 
                         
-                    }
+//                     }
 
-                    .text{
-                        width: 80%;
+//                     .text{
+//                         width: 80%;
                         
-                        p{
-                            font-size: 10px;
-                            //line-height: 40px;
-                            font-weight: 900;
-                            padding-top: 60px;
+//                         p{
+//                             font-size: 10px;
+//                             //line-height: 40px;
+//                             font-weight: 900;
+//                             padding-top: 60px;
                             
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-.social{
-    margin-top: 90px;
-    .container{
-        text-align: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        h2{
-            font-size: 20px;
-            padding-bottom: 50px;
-        }
-        .imgs{
-            padding-top: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-            img{
-                height: 230px;
-            }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+// .social{
+//     margin-top: 90px;
+//     .container{
+//         text-align: center;
+//         align-items: center;
+//         display: flex;
+//         flex-direction: column;
+//         h2{
+//             font-size: 20px;
+//             padding-bottom: 50px;
+//         }
+//         .imgs{
+//             padding-top: 30px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             gap: 20px;
+//             img{
+//                 height: 230px;
+//             }
 
-            .second {
-                margin-top: 200px;
-                display: none;
-            }
-            .fourth {
-                margin-top: 200px;
-                display: none;
-            }
-            .sixth {
-                margin-top: 200px;
-                display: none;
-            }
+//             .second {
+//                 margin-top: 200px;
+//                 display: none;
+//             }
+//             .fourth {
+//                 margin-top: 200px;
+//                 display: none;
+//             }
+//             .sixth {
+//                 margin-top: 200px;
+//                 display: none;
+//             }
 
             
-        }
+//         }
 
-        h2{
-            font-size: 20px;
-            font-weight: 900;
-        }
-        .btn{
-            width: 100px;
-            height: 30px;
-            background-color: #701891;
-            border-radius: 0;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            a{
-                color: white;
-                text-decoration: none;
-                font-size: 15px;
-            }
-        }
-    }
-}
+//         h2{
+//             font-size: 20px;
+//             font-weight: 900;
+//         }
+//         .btn{
+//             width: 100px;
+//             height: 30px;
+//             background-color: #701891;
+//             border-radius: 0;
+//             align-items: center;
+//             justify-content: center;
+//             display: flex;
+//             a{
+//                 color: white;
+//                 text-decoration: none;
+//                 font-size: 15px;
+//             }
+//         }
+//     }
+// }
 
 
 
@@ -536,7 +538,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 */
 
 /* styles for mobile phones in portrait mode */ 
- @media (max-width: 375px) {
+ @media (min-width: 375px) {
  
     .dark{
         background-color: white;
@@ -590,6 +592,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             align-items: center;
             justify-content: space-between;
             position: relative;
+            gap: 50px;
     
             img{
                 height: 50px;
@@ -624,7 +627,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 .left{
                     .text{
                         .text-text{
-                            width: 70%;
+                            width: 90%;
                             h1{
                                 color: black;
                                 font-size: 30px;
@@ -640,8 +643,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     .buttons{
                         padding-top: 30px;
                         display: flex;
-                        align-items: center;
-                        justify-content: center;
+                       
                         gap: 20px;
                         
                         .btn{
@@ -670,46 +672,52 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     }
     
                     .services{
-                        padding-top: 20px;
-                        display: flex;
+                        margin-top: 20px;
+                        //display: flex;
+                        //flex-direction: column;
                         align-items: center;
                         justify-content: center;
                         .service{
                             display: flex;
                             img{
-                                height: 30px;
+                                height: 20px;
                             }
                             p{
                                 padding-left: 3px;
                                 color:black;
                                 text-decoration: none;
+                                
+                                span{
+                                    color: #701891;
+                                }
                             }
                         }
                     }
                 }
     
                 .right{
-                    padding-top: 20px;
+                    margin-top: -40px;
                     .pictures{
                         display: flex;
-                        gap: 20px;
+                        gap: 10px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         .pic{
                             
                             img{
-                                height: 320px;
+                                height: 190px;
                                 width: fit-content;
                                 
                             }
                         }
     
-                        .pic3{
-                            display: none;
+                        .pic1{
+                            margin-top: 100px;
+                           
                         }
-                        .pic4{
-                            display: none;
+                        .pic3{
+                            margin-top: 100px;
                         }
                         
                        
@@ -813,31 +821,33 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             .roww{
                 gap: 20px;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                img{
-                        height: 180px;
-                        display: none;
+                        height: 480px;
+                        
                     }
                     .pi{
-                        width: 60px;
-                        display: none;
+                        height: 480px;
+                        
                     }
     
                 .purple{
-                    height: 220px;
-                    width: 900px;
+                    height: 420px;
+                    width: 310px;
                     background-color: #701891;
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
                     justify-content: center;
-                    text-align: center;
+                    //text-align: center;
             
                     
     
                     p{
                         color: white;
-                        font-size: 8px;
+                        font-size: 15px;
+                        margin-left: 70px;
                         
                     }
                 }
@@ -885,7 +895,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     
                         .text{
                             width: 80%;
-                            margin-top: -20px;
+                            margin-top: -40px;
                             
                             p{
                                 font-size: 10px;
@@ -893,6 +903,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                                 font-weight: 900;
                                 padding-top: 60px;
                                 
+                            }
+
+                            .ttt{
+                                padding-top: 10px;
+                                font-weight: 200;
                             }
                         }
                     }
@@ -928,7 +943,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                         }
     
                         .text{
-                            width: 80%;
+                            width: 90%;
+                            margin-top: -40px;
                             
                             p{
                                 font-size: 10px;
@@ -936,6 +952,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                                 font-weight: 900;
                                 padding-top: 60px;
                                 
+                            }
+                            .ttt{
+                                padding-top: 10px;
+                                font-weight: 200;
                             }
                         }
                     }
@@ -976,6 +996,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     margin-top: 200px;
                     display: none;
                 }
+                .third{
+                    margin-top: -100px;
+                }
     
                 
             }
@@ -997,6 +1020,152 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     text-decoration: none;
                     font-size: 15px;
                 }
+            }
+        }
+    }
+    .footer{
+        padding: 20px 0;
+        margin-top: 100px;
+        //height: 300px;
+        background-color: #701891;
+
+        .containe{
+            margin: 0 10px;
+           
+            .row{
+                padding-top: 10px;
+               .firstOne{
+                display: flex;
+                gap: 40px;
+                .first{
+                    img{
+                       // padding-top: 20px;
+                       height: 40px;
+                    }
+                    .rights{
+                        padding-top: 10px;
+                        display: flex;
+                        gap: 10px;
+
+                        img{
+                            height: 20px;
+                        }
+
+                        p{
+                            color: white;
+                            //ine-height: 20px;
+                            font-size: 10px;
+
+                            
+                        }
+                    }
+
+                    .icons{
+                        padding-top: 9px;
+                        display: flex;
+                        gap: 10px;
+                        height: 10px;
+
+                        img{
+                            height: 20px;
+                        }
+                    }
+                }
+
+                .second{
+                    padding-left: 12px;
+                    .links{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-size: 10px;
+
+                            span{
+                                text-decoration: underline;
+                                font-size: 15px;
+                                font-weight: 900;
+                            }
+                            
+                        }
+                    }
+
+                }
+               }
+              .secondOne{
+                display: flex;
+                gap: 80px;
+                .third{
+                    width: 100px;
+                    padding-top: 30px;
+                
+                    .help{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-size: 10px;
+
+
+                            span{
+                                text-decoration: underline;
+                                font-size: 15px;
+                                font-weight: 900;
+                            }
+                        }
+                    }
+
+                }
+
+                .fourt{
+                    padding-top: 30px;
+                    padding-left: 10px;
+                    a{
+                        color: white;
+                        font-size: 10px;
+                        //padding-bottom: 20px;
+                    }
+                    .foot{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        span{
+                            text-decoration: underline;
+                            font-size: 15px;
+                            font-weight: 900;
+                        }
+                        .linkss{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 10px;
+
+                            img{
+                                height: 10px;
+                            }
+
+
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                font-size: 10px;
+
+                               
+
+                            
+                            }
+                        }
+                       
+                    }
+                }
+              }
+
             }
         }
     }
@@ -1103,7 +1272,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 .left{
                     .text{
                         .text-text{
-                            padding-top: 100px;
+                            padding-top: 60px;
                             width: 100%;
                             h1{
                                 color: black;
@@ -1121,7 +1290,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                         
                     }
                     .buttons{
-                        padding-top: 30px;
+                        padding-top: 20px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -1154,7 +1323,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     }
     
                     .services{
-                        padding-top: 20px;
+                        padding-top: -50px;
                         display: flex;
                         flex-direction: column;
                         gap: 10px;
@@ -1177,7 +1346,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     
                 .right{
                     width: 68vw;
-                    padding-left: 170px;
+                    padding-left: -370px;
                     padding-top: 20px;
                     .pictures{
                         display: flex;
@@ -1189,7 +1358,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                         .pic{
                             
                             img{
-                                height: 700px;
+                                height: 500px;
                                 width: fit-content;
                                 
                             }
@@ -1220,7 +1389,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     h2{
                         font-weight: 900;
                         padding-bottom: 30px;
-                        margin-left: -230px;
+                        margin-left: -100px;
                         text-decoration: none;
                     }
                     .text{
@@ -1228,16 +1397,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                         p{
                             text-decoration: none;
                             line-height: 30px;
-                            font-size: 22.7px;
+                            font-size: 18px;
                     
                         }
                     }
                     .pic1{
                         padding-top: 40px;
+                        height: 350px;
                     }
                     .pic-pic{
-                        margin-top: -250px;
-                        margin-left: 300px
+                        margin-top: -150px;
+                        margin-left: 220px;
+                        height: 300px;
                     }
 
                 }
@@ -1249,7 +1420,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 .picture{
                     width: 50px;
                     img{
-                        height: 710px;
+                        height: 555px;
                         padding-top: 70px;
 
                     }
@@ -1261,7 +1432,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     .tt{
                         text-decoration: none;
                         line-height: 30px;
-                        font-size: 22.7px;
+                        font-size: 18px;
                 
                     }
                 }
@@ -1288,7 +1459,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             h2{
                 font-weight: 900;
                 padding-bottom: 30px;
-                margin-left: -230px;
+                margin-left: -100px;
                 text-decoration: none;
             }
 
@@ -1329,7 +1500,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             h2{
                 font-weight: 900;
                 padding-bottom: 80px;
-                margin-left: -230px;
+                margin-left: -100px;
                 text-decoration: none;
             }
             .row{
