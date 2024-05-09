@@ -687,23 +687,33 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 .picture{
                     width: 50px;
                     img{
-                        height: 650px;
+                        height: 710px;
                         padding-top: 70px;
 
                     }
-                    .text-t{
-                        
-                        .tt{
-                            text-decoration: none;
-                            line-height: 30px;
-                            font-size: 22.7px;
                     
-                        }
+                }
+                .text-t{
+                    padding-top: 30px;
+                        
+                    .tt{
+                        text-decoration: none;
+                        line-height: 30px;
+                        font-size: 22.7px;
+                
                     }
-                    .btn-b{
-                        width: 10px;
-                        height: 40px;
-                        background-color: #701891;
+                }
+                .btn{
+                    width: 150px;
+                    height: 40px;
+                    background-color: #701891;
+                    border-radius: 0;
+                    margin-top: 30px;
+    
+
+                    a{
+                        color: white;
+                        text-decoration: none;
                     }
                 }
 
@@ -893,11 +903,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
 
     .footer{
+        padding: 20px 0;
         margin-top: 100px;
         height: 300px;
         background-color: #701891;
 
-        .container{
+        .containe{
+            margin: 0 50px;
+           
             .row{
                 padding-top: 40px;
                 .first{
@@ -920,6 +933,72 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                         padding-top: 30px;
                         display: flex;
                         gap: 40px;
+                    }
+                }
+
+                .second{
+                    .links{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 25px;
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-size: 25px;
+
+                            span{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+
+                }
+                .third{
+                    .help{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 25px;
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-size: 25px;
+
+
+                            span{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+
+                }
+
+                .fourt{
+                    a{
+                        color: white;
+                        font-size: 25px;
+                        //padding-bottom: 20px;
+                    }
+                    .foot{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        .linkss{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 10px;
+
+
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                font-size: 25px;
+
+                            
+                            }
+                        }
+                       
                     }
                 }
 

@@ -378,18 +378,27 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     width: 50px;
   }
   .about .container .right .picture img {
-    height: 650px;
+    height: 710px;
     padding-top: 70px;
   }
-  .about .container .right .picture .text-t .tt {
+  .about .container .right .text-t {
+    padding-top: 30px;
+  }
+  .about .container .right .text-t .tt {
     text-decoration: none;
     line-height: 30px;
     font-size: 22.7px;
   }
-  .about .container .right .picture .btn-b {
-    width: 10px;
+  .about .container .right .btn {
+    width: 150px;
     height: 40px;
     background-color: #701891;
+    border-radius: 0;
+    margin-top: 30px;
+  }
+  .about .container .right .btn a {
+    color: white;
+    text-decoration: none;
   }
   .services {
     margin-top: 90px;
@@ -537,26 +546,75 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-size: 30px;
   }
   .footer {
+    padding: 20px 0;
     margin-top: 100px;
     height: 300px;
     background-color: #701891;
   }
-  .footer .container .row {
+  .footer .containe {
+    margin: 0 50px;
+  }
+  .footer .containe .row {
     padding-top: 40px;
   }
-  .footer .container .row .first .rights {
+  .footer .containe .row .first .rights {
     padding-top: 30px;
     display: flex;
     gap: 10px;
   }
-  .footer .container .row .first .rights p {
+  .footer .containe .row .first .rights p {
     color: white;
     font-size: 20px;
   }
-  .footer .container .row .first .icons {
+  .footer .containe .row .first .icons {
     padding-top: 30px;
     display: flex;
     gap: 40px;
+  }
+  .footer .containe .row .second .links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer .containe .row .second .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .footer .containe .row .second .links a span {
+    text-decoration: underline;
+  }
+  .footer .containe .row .third .help {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer .containe .row .third .help a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .footer .containe .row .third .help a span {
+    text-decoration: underline;
+  }
+  .footer .containe .row .fourt a {
+    color: white;
+    font-size: 25px;
+  }
+  .footer .containe .row .fourt .foot {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer .containe .row .fourt .foot .linkss {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer .containe .row .fourt .foot .linkss a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
   }
 }
 /* Large devices (desktops, 992px and up) */
