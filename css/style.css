@@ -50,6 +50,374 @@ table {
   border-spacing: 0;
 }
 
+.dark {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  background: black;
+  color: white;
+}
+
+.navbar .pc-nav {
+  display: none;
+}
+.navbar .rectangle {
+  width: 100vw;
+  height: 100vh;
+  background-color: #701891;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: -100vh;
+  transition: all 2s ease-in-out;
+  display: flex;
+}
+.navbar .rectangle img {
+  height: 30px;
+}
+.navbar .rectangle img .light-theme {
+  position: absolute;
+  display: none;
+}
+.navbar .mobile-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.navbar .mobile-nav img {
+  height: 50px;
+}
+.navbar .mobile-nav .hamburger {
+  position: absolute;
+  right: 10px;
+  border: 3px solid #701891;
+  height: 30px;
+  width: 35px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.navbar .mobile-nav .hamburger .line {
+  background: #701891;
+  height: 3px;
+  width: 70%;
+}
+
+.ignating {
+  margin-top: 20px;
+}
+.ignating .container .ro .left .text .text-text {
+  width: 70%;
+}
+.ignating .container .ro .left .text .text-text h1 {
+  color: black;
+  font-size: 30px;
+}
+.ignating .container .ro .left .text .text-text p {
+  color: black;
+  padding-top: 10px;
+}
+.ignating .container .ro .left .buttons {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.ignating .container .ro .left .buttons .btn {
+  width: 40%;
+  height: 30px;
+  border: 3px solid #701891;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0%;
+}
+.ignating .container .ro .left .buttons .btn a {
+  text-decoration: none;
+  color: black;
+}
+.ignating .container .ro .left .buttons .btn1 {
+  background-color: #701891;
+}
+.ignating .container .ro .left .buttons .btn1 a {
+  color: white;
+}
+.ignating .container .ro .left .services {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ignating .container .ro .left .services .service {
+  display: flex;
+}
+.ignating .container .ro .left .services .service img {
+  height: 30px;
+}
+.ignating .container .ro .left .services .service p {
+  padding-left: 3px;
+  color: black;
+  text-decoration: none;
+}
+.ignating .container .ro .right {
+  padding-top: 20px;
+}
+.ignating .container .ro .right .pictures {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ignating .container .ro .right .pictures .pic img {
+  height: 320px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.ignating .container .ro .right .pictures .pic3 {
+  display: none;
+}
+.ignating .container .ro .right .pictures .pic4 {
+  display: none;
+}
+
+.about {
+  margin-top: 70px;
+}
+.about .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .container .row .left h2 {
+  font-weight: 900;
+  padding-bottom: 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.about .container .row .left .text {
+  width: 100%;
+}
+.about .container .row .left .text p {
+  text-decoration: none;
+  font-size: 12px;
+}
+.about .container .row .left .pic1 {
+  padding-top: 40px;
+  height: 40px;
+  display: none;
+}
+.about .container .row .left .pic-pic {
+  margin-top: -10px;
+  margin-left: 300px;
+  height: 40px;
+  display: none;
+}
+.about .container .right {
+  padding-left: 10px;
+}
+.about .container .right .picture {
+  width: 50px;
+}
+.about .container .right .picture img {
+  height: 310px;
+  padding-top: 30px;
+}
+.about .container .right .text-t {
+  padding-top: 30px;
+  width: 100%;
+}
+.about .container .right .text-t .tt {
+  text-decoration: none;
+  font-size: 12px;
+}
+.about .container .right .btn {
+  width: 150px;
+  height: 40px;
+  background-color: #701891;
+  border-radius: 0;
+  margin-top: 30px;
+}
+.about .container .right .btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.services {
+  margin-top: 90px;
+}
+.services .container h2 {
+  font-weight: 900;
+  padding-bottom: 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.services .container .roww {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.services .container .roww img {
+  height: 180px;
+  display: none;
+}
+.services .container .roww .pi {
+  width: 60px;
+  display: none;
+}
+.services .container .roww .purple {
+  height: 220px;
+  width: 900px;
+  background-color: #701891;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.services .container .roww .purple p {
+  color: white;
+  font-size: 8px;
+}
+
+.testimonial {
+  margin-top: 100px;
+}
+.testimonial .container h2 {
+  font-weight: 900;
+  padding-bottom: 80px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.testimonial .container .row .left .the-all .picture {
+  width: 300px;
+  height: 180px;
+  background: url(/IMAGEZ/picture\ 9.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background-size: cover;
+}
+.testimonial .container .row .left .the-all .picture .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: #701891;
+}
+.testimonial .container .row .left .the-all .picture .box img {
+  height: 10px;
+}
+.testimonial .container .row .left .the-all .text {
+  width: 80%;
+  margin-top: -20px;
+}
+.testimonial .container .row .left .the-all .text p {
+  font-size: 10px;
+  font-weight: 900;
+  padding-top: 60px;
+}
+.testimonial .container .row .right {
+  margin-top: 150px;
+}
+.testimonial .container .row .right .the-all .picture {
+  padding-top: 40px;
+  width: 300px;
+  height: 180px;
+  background: url(/IMAGEZ/picture\ 10.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-top: -100px;
+  background-size: cover;
+}
+.testimonial .container .row .right .the-all .picture .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: #701891;
+}
+.testimonial .container .row .right .the-all .picture .box img {
+  height: 10px;
+}
+.testimonial .container .row .right .the-all .text {
+  width: 80%;
+}
+.testimonial .container .row .right .the-all .text p {
+  font-size: 10px;
+  font-weight: 900;
+  padding-top: 60px;
+}
+
+.social {
+  margin-top: 90px;
+}
+.social .container {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.social .container h2 {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.social .container .imgs {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.social .container .imgs img {
+  height: 230px;
+}
+.social .container .imgs .second {
+  margin-top: 200px;
+  display: none;
+}
+.social .container .imgs .fourth {
+  margin-top: 200px;
+  display: none;
+}
+.social .container .imgs .sixth {
+  margin-top: 200px;
+  display: none;
+}
+.social .container h2 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.social .container .btn {
+  width: 100px;
+  height: 30px;
+  background-color: #701891;
+  border-radius: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.social .container .btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -192,7 +560,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     justify-content: center;
   }
   .ignating .container .ro .right .pictures .pic img {
-    height: 390px;
+    height: 320px;
     width: -moz-fit-content;
     width: fit-content;
   }
@@ -201,6 +569,229 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .ignating .container .ro .right .pictures .pic4 {
     display: none;
+  }
+  .about {
+    margin-top: 70px;
+  }
+  .about .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .container .row .left h2 {
+    font-weight: 900;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .about .container .row .left .text {
+    width: 100%;
+  }
+  .about .container .row .left .text p {
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .about .container .row .left .pic1 {
+    padding-top: 40px;
+    height: 40px;
+    display: none;
+  }
+  .about .container .row .left .pic-pic {
+    margin-top: -10px;
+    margin-left: 300px;
+    height: 40px;
+    display: none;
+  }
+  .about .container .right {
+    padding-left: 10px;
+  }
+  .about .container .right .picture {
+    width: 50px;
+  }
+  .about .container .right .picture img {
+    height: 310px;
+    padding-top: 30px;
+  }
+  .about .container .right .text-t {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .about .container .right .text-t .tt {
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .about .container .right .btn {
+    width: 150px;
+    height: 40px;
+    background-color: #701891;
+    border-radius: 0;
+    margin-top: 30px;
+  }
+  .about .container .right .btn a {
+    color: white;
+    text-decoration: none;
+  }
+  .services {
+    margin-top: 90px;
+  }
+  .services .container h2 {
+    font-weight: 900;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .services .container .roww {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .services .container .roww img {
+    height: 180px;
+    display: none;
+  }
+  .services .container .roww .pi {
+    width: 60px;
+    display: none;
+  }
+  .services .container .roww .purple {
+    height: 220px;
+    width: 900px;
+    background-color: #701891;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .services .container .roww .purple p {
+    color: white;
+    font-size: 8px;
+  }
+  .testimonial {
+    margin-top: 100px;
+  }
+  .testimonial .container h2 {
+    font-weight: 900;
+    padding-bottom: 80px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .testimonial .container .row .left .the-all .picture {
+    width: 300px;
+    height: 180px;
+    background: url(/IMAGEZ/picture\ 9.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-size: cover;
+  }
+  .testimonial .container .row .left .the-all .picture .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #701891;
+  }
+  .testimonial .container .row .left .the-all .picture .box img {
+    height: 10px;
+  }
+  .testimonial .container .row .left .the-all .text {
+    width: 80%;
+    margin-top: -20px;
+  }
+  .testimonial .container .row .left .the-all .text p {
+    font-size: 10px;
+    font-weight: 900;
+    padding-top: 60px;
+  }
+  .testimonial .container .row .right {
+    margin-top: 150px;
+  }
+  .testimonial .container .row .right .the-all .picture {
+    padding-top: 40px;
+    width: 300px;
+    height: 180px;
+    background: url(/IMAGEZ/picture\ 10.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: -100px;
+    background-size: cover;
+  }
+  .testimonial .container .row .right .the-all .picture .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #701891;
+  }
+  .testimonial .container .row .right .the-all .picture .box img {
+    height: 10px;
+  }
+  .testimonial .container .row .right .the-all .text {
+    width: 80%;
+  }
+  .testimonial .container .row .right .the-all .text p {
+    font-size: 10px;
+    font-weight: 900;
+    padding-top: 60px;
+  }
+  .social {
+    margin-top: 90px;
+  }
+  .social .container {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .social .container h2 {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .social .container .imgs {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .social .container .imgs img {
+    height: 230px;
+  }
+  .social .container .imgs .second {
+    margin-top: 200px;
+    display: none;
+  }
+  .social .container .imgs .fourth {
+    margin-top: 200px;
+    display: none;
+  }
+  .social .container .imgs .sixth {
+    margin-top: 200px;
+    display: none;
+  }
+  .social .container h2 {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .social .container .btn {
+    width: 100px;
+    height: 30px;
+    background-color: #701891;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .social .container .btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
   }
 }
 /* styles for mobile phones in landscape mode */
