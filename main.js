@@ -6,3 +6,9 @@ colorMode.addEventListener('click', function() {
     switchingTheme.classList.toggle('switcher')
     
 })
+
+let icon = document.querySelector(".dark")
+
+icon.onclick = function () {
+    document.body.classList.toggle('black')
+}
