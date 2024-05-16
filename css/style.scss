@@ -476,10 +476,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .black{
         background: black;
         color: white !important;
+        h1{color: white;}
         
-        a{
-            color: white;
-        }
+        a{color: white;}
     
         
     }
@@ -504,6 +503,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             transition: all 2s ease-in-out;
     
             .theme{
+                color: white;
+                a{color: white;}
+                h1{color: white;}
             }
                 display: flex;
     

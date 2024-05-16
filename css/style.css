@@ -78,6 +78,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     background: black;
     color: white !important;
   }
+  .black h1 {
+    color: white;
+  }
   .black a {
     color: white;
   }
@@ -96,6 +99,15 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     top: -100vh;
     transition: all 2s ease-in-out;
     display: flex;
+  }
+  .navbar .rectangle .theme {
+    color: white;
+  }
+  .navbar .rectangle .theme a {
+    color: white;
+  }
+  .navbar .rectangle .theme h1 {
+    color: white;
   }
   .navbar .rectangle img {
     height: 30px;
