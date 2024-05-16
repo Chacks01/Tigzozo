@@ -10,5 +10,5 @@ colorMode.addEventListener('click', function() {
 let icon = document.querySelector(".dark")
 
 icon.onclick = function () {
-    document.body.classList.toggle('black')
+    document.body.classList.click('black')
 }

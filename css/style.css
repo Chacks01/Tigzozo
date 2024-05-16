@@ -4,7 +4,7 @@
 */
 @font-face {
   font-family: "josifin";
-  src: url(../josefin-sans/JosefinSans-Italic.ttf);
+  src: url(../josefin-sans/JosefinSans-Regular.ttf);
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -76,6 +76,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .black {
     background: black;
+    color: white !important;
+  }
+  .black a {
     color: white;
   }
   .navbar .pc-nav {
@@ -935,6 +938,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .footer {
     padding: 20px 0;
     margin-top: 100px;
+    height: 30px;
     background-color: #701891;
   }
   .footer .containe {
@@ -945,10 +949,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .footer .containe .row .firstOne {
     display: flex;
-    gap: 30px;
-  }
-  .footer .containe .row .firstOne .first {
-    gap: 4px;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
   .footer .containe .row .firstOne .first img {
     height: 40px;
@@ -993,8 +995,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     font-weight: 900;
   }
   .footer .containe .row .secondOne {
-    display: flex;
-    gap: 65px;
+    margin-top: -30px;
+    justify-content: space-evenly;
   }
   .footer .containe .row .secondOne .third {
     width: 100px;
@@ -1088,6 +1090,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   }
   .navbar .pc-nav .links .theme img {
     height: 30px;
+    background-color: transparent;
+    padding: 0;
   }
   .navbar .pc-nav .links .theme .switch .light {
     display: block;
@@ -1204,11 +1208,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .about .container .row .left .pic1 {
     padding-top: 40px;
     height: 350px;
+    display: block;
   }
   .about .container .row .left .pic-pic {
-    margin-top: -150px;
+    margin-top: -90px;
     margin-left: 220px;
     height: 300px;
+    display: block;
   }
   .about .container .right {
     padding-left: 130px;
@@ -1242,39 +1248,37 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .services {
     margin-top: 90px;
   }
-  .services .containe {
-    padding: 0 100px;
-  }
-  .services .containe h2 {
+  .services .container h2 {
     font-weight: 900;
     padding-bottom: 30px;
+    margin-left: -100px;
     text-decoration: none;
     font-size: 20px;
   }
-  .services .containe .roww {
+  .services .container .roww {
     gap: 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
-  .services .containe .roww img {
-    height: 300px;
+  .services .container .roww img {
+    height: 550px;
   }
-  .services .containe .roww img {
-    height: 720px;
+  .services .container .roww .pi {
+    height: 550px;
   }
-  .services .containe .roww .purple {
-    height: 20px;
-    width: 510px;
+  .services .container .roww .purple {
+    height: 550px;
+    width: 360px;
     background-color: #701891;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: center;
   }
-  .services .containe .roww .purple p {
+  .services .container .roww .purple p {
     color: white;
     font-size: 25px;
-    margin-left: 70px;
   }
   .testimonial {
     margin-top: 300px;
@@ -1365,16 +1369,20 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     gap: 20px;
   }
   .social .container .imgs img {
-    height: 230px;
+    height: 330px;
+    margin-bottom: 20px;
   }
   .social .container .imgs .second {
     margin-top: 200px;
+    display: block;
   }
   .social .container .imgs .fourth {
     margin-top: 200px;
+    display: block;
   }
   .social .container .imgs .sixth {
     margin-top: 200px;
+    display: block;
   }
   .social .container .imgs .third {
     margin-top: -100px;
@@ -1409,64 +1417,69 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   .footer .containe .row {
     padding-top: 40px;
   }
-  .footer .containe .row .first .rights {
+  .footer .containe .row .firstOne .first img {
+    height: 50px;
+  }
+  .footer .containe .row .firstOne .first .rights {
     padding-top: 30px;
     display: flex;
     gap: 10px;
+    font-size: 10px;
   }
-  .footer .containe .row .first .rights p {
+  .footer .containe .row .firstOne .first .rights p {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
   }
-  .footer .containe .row .first .icons {
+  .footer .containe .row .firstOne .first .icons {
     padding-top: 30px;
     display: flex;
-    gap: 40px;
+    gap: 30px;
   }
-  .footer .containe .row .second .links {
+  .footer .containe .row .firstOne .second .links {
     display: flex;
     flex-direction: column;
     gap: 25px;
   }
-  .footer .containe .row .second .links a {
+  .footer .containe .row .firstOne .second .links a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
   }
-  .footer .containe .row .second .links a span {
+  .footer .containe .row .firstOne .second .links a span {
     text-decoration: underline;
+    font-size: 15px;
   }
-  .footer .containe .row .third .help {
+  .footer .containe .row .secondOne .third .help {
     display: flex;
     flex-direction: column;
     gap: 25px;
   }
-  .footer .containe .row .third .help a {
+  .footer .containe .row .secondOne .third .help a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
   }
-  .footer .containe .row .third .help a span {
+  .footer .containe .row .secondOne .third .help a span {
     text-decoration: underline;
   }
-  .footer .containe .row .fourt a {
+  .footer .containe .row .secondOne .fourt a {
     color: white;
-    font-size: 25px;
+    font-size: 15px;
   }
-  .footer .containe .row .fourt .foot {
+  .footer .containe .row .secondOne .fourt .foot {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .footer .containe .row .fourt .foot .linkss {
+  .footer .containe .row .secondOne .fourt .foot .linkss {
     display: flex;
     flex-direction: row;
     gap: 10px;
   }
-  .footer .containe .row .fourt .foot .linkss a {
+  .footer .containe .row .secondOne .fourt .foot .linkss a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 /*

@@ -6,7 +6,7 @@
 */
 @font-face {
     font-family: "josifin";
-    src: url(../josefin-sans/JosefinSans-Italic.ttf);
+    src: url(../josefin-sans/JosefinSans-Regular.ttf);
 }
 
 html, body, div, span, applet, object, iframe,
@@ -470,12 +470,16 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .dark{
         background-color: white;
         color: black;
+        
     }
     
     .black{
         background: black;
-        color: white;
-    
+        color: white !important;
+        
+        a{
+            color: white;
+        }
     
         
     }
@@ -959,7 +963,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .footer{
         padding: 20px 0;
         margin-top: 100px;
-        //height: 300px;
+        
         background-color: #701891;
 
         .containe{
@@ -1604,7 +1608,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     .footer{
         padding: 20px 0;
         margin-top: 100px;
-        //height: 300px;
+        height: 30px;
         background-color: #701891;
 
         .containe{
@@ -1615,11 +1619,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                
                .firstOne{
                 display: flex;
-                gap: 30px;
+                flex-direction: row;
+                justify-content: space-evenly;
+
                
               
                 .first{
-                    gap: 4px;
+                    //gap: 4px;
                     img{
                        // padding-top: 20px;
                        height: 40px;
@@ -1678,8 +1684,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 }
                }
               .secondOne{
-                display: flex;
-                gap: 65px;
+            margin-top: -30px;
+            justify-content: space-evenly;
+                
+                
              
                 .third{
                     width: 100px;
@@ -1811,9 +1819,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
             }
             
             .theme{
+                
                 display: flex;
                 img{
                     height: 30px;
+                    background-color: transparent;
+                    padding: 0;
                 }
 
                 .switch{
@@ -1975,11 +1986,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                     .pic1{
                         padding-top: 40px;
                         height: 350px;
+                        display: block;
                     }
                     .pic-pic{
-                        margin-top: -150px;
+                        margin-top: -90px;
                         margin-left: 220px;
                         height: 300px;
+                        display: block;
                     }
 
                 }
@@ -2027,12 +2040,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
     .services{
         margin-top: 90px;
-        .containe{
-            padding: 0 100px;
+        .container{
             h2{
                 font-weight: 900;
                 padding-bottom: 30px;
-                //margin-left: -230px;
+                margin-left: -100px;
                 text-decoration: none;
                 font-size: 20px;
             }
@@ -2041,34 +2053,33 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 gap: 20px;
                 display: flex;
                 flex-direction: row;
-               
+                align-items: center;
+                justify-content: center;
                img{
-                        height: 300px;
-                        
-                      
+                        height: 550px;
                         
                     }
-                    img{
-                        height: 720px;
-                        
+                    .pi{
+                        height: 550px;
+    
+                       
                     }
     
                 .purple{
-                    height: 20px;
-                    width: 510px;
+                    height: 550px;
+                    width: 360px;
                     background-color: #701891;
                     display: flex;
                     flex-direction: column;
                     gap: 10px;
-                    justify-content: center;
-                    //text-align: center;
+                    
+                    
             
                     
     
                     p{
                         color: white;
                         font-size: 25px;
-                        margin-left: 70px;
                         
                     }
                 }
@@ -2187,22 +2198,26 @@ No media query since this is the default in Bootstrap because it is "mobile firs
                 justify-content: center;
                 gap: 20px;
                 img{
-                    height: 230px;
+                    height: 330px;
+                    margin-bottom: 20px;
                 }
     
                 .second {
                     margin-top: 200px;
+                    display: block;
                     
                 
                 }
                 .fourth {
                     margin-top: 200px;
-                 
+                    display: block;
+                    
                     
                 }
                 .sixth {
                     margin-top: 200px;
-                   
+                    display: block;
+                
                   
                 }
                 .third{
@@ -2244,92 +2259,100 @@ No media query since this is the default in Bootstrap because it is "mobile firs
            
             .row{
                 padding-top: 40px;
-                .first{
-                    img{
-                       // padding-top: 20px;
-                    }
-                    .rights{
-                        padding-top: 30px;
-                        display: flex;
-                        gap: 10px;
-
-                        p{
-                            color: white;
-                            //ine-height: 20px;
-                            font-size: 20px;
+                .firstOne{
+                    .first{
+                        img{
+                           height: 50px;
                         }
-                    }
-
-                    .icons{
-                        padding-top: 30px;
-                        display: flex;
-                        gap: 40px;
-                    }
-                }
-
-                .second{
-                    .links{
-                        display: flex;
-                        flex-direction: column;
-                        gap: 25px;
-
-                        a{
-                            color: white;
-                            text-decoration: none;
-                            font-size: 25px;
-
-                            span{
-                                text-decoration: underline;
-                            }
-                        }
-                    }
-
-                }
-                .third{
-                    .help{
-                        display: flex;
-                        flex-direction: column;
-                        gap: 25px;
-
-                        a{
-                            color: white;
-                            text-decoration: none;
-                            font-size: 25px;
-
-
-                            span{
-                                text-decoration: underline;
-                            }
-                        }
-                    }
-
-                }
-
-                .fourt{
-                    a{
-                        color: white;
-                        font-size: 25px;
-                        //padding-bottom: 20px;
-                    }
-                    .foot{
-                        display: flex;
-                        flex-direction: column;
-                        gap: 20px;
-                        .linkss{
+                        .rights{
+                            padding-top: 30px;
                             display: flex;
-                            flex-direction: row;
                             gap: 10px;
-
-
+                            font-size: 10px;
+    
+                            p{
+                                color: white;
+                                //ine-height: 20px;
+                                font-size: 15px;
+                            }
+                        }
+    
+                        .icons{
+                            padding-top: 30px;
+                            display: flex;
+                            gap: 30px;
+                        }
+                    }
+    
+                    .second{
+                        .links{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 25px;
+    
+    
                             a{
                                 color: white;
                                 text-decoration: none;
-                                font-size: 25px;
-
-                            
+                                font-size: 15px;
+    
+                                span{
+                                    text-decoration: underline;
+                                    font-size: 15px;
+    
+                                }
                             }
                         }
-                       
+    
+                    }
+                }
+                .secondOne{
+                    .third{
+                        .help{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 25px;
+    
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                font-size: 15px;
+    
+    
+                                span{
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+    
+                    }
+    
+                    .fourt{
+                        a{
+                            color: white;
+                            font-size: 15px;
+                            //padding-bottom: 20px;
+                        }
+                        .foot{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            .linkss{
+                                display: flex;
+                                flex-direction: row;
+                                gap: 10px;
+    
+    
+                                a{
+                                    color: white;
+                                    text-decoration: none;
+                                    font-size: 15px;
+    
+                                
+                                }
+                            }
+                           
+                        }
                     }
                 }
 
